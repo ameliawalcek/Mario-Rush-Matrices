@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id='container'>
+        <div id='board-container'>
+            <img src="./assets/castle.png" id='castle' alt="">
+        </div>
+        <br>
+        <div id='bottom-bar'>
+            <div class="dimensions-input">
+                <input class="x-input" type="number" min="1" max="7"> X <input class="y-input" type="number" min="1" max="7">
+            </div>
+            <div id="enter-btn">START</div>
+            <div class='player'>Player 1</div>
+                <div id='player1-score'></div>
+            
+            <div class='player'>Player 2</div>
+                <div id='player2-score'></div>
+            
+        </div>
+    </div>
+
+    <script id="board-template" type="text/x-handlebars-template">
+        <div class="row">
+            {{#each currentRow}}
+            <div class="cell"><span class="cell-content {{this}}"> </span></div>
+            {{/each}}
+        </div>
+    </script>
+
+    <script id="score-template" type="text/x-handlebars-template">
+        <div>{{score}}</div>
+    </script>
+
+    <script src='./jquery/dist/jquery.js'></script>
+    <script src='./handlebars/dist/handlebars.js'></script>
+    <script src="Matrix.js"></script>
+    <script src="MarioRush.js"></script>
+    <script src="Renderer.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

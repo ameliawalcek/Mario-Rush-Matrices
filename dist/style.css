@@ -1,0 +1,75 @@
+body{
+    background-color: #548cff;
+}
+
+#board-container {
+  width: 100%;
+  display: grid;
+  color: rgba(0, 0, 0, 0);
+  height: 89vh;
+}
+
+.row{
+    width: 100%;
+    display: grid;
+    column-gap: 17px;
+}
+
+.player1 {
+    background-image: url("./assets/mario.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c{
+    background-image: url("./assets/coin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.m{
+    background-image: url("./assets/mushroom.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.player2{
+    background-image: url("./assets/bowser.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.x{
+    background-image: url("./assets/block.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+span {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#bottom-bar{
+    display: grid;
+    grid-template-columns: 1fr .5fr .5fr .5fr .5fr .5fr;
+    background-image: url("./assets/block.png");
+    height: 40px;
+    background-size: contain;
+    align-items: center;
+    justify-items: center;
+    color: #548cff;
+}
+
+#castle{
+    height: 424px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    align-self: self-end;
+    bottom: 5px;
+}
