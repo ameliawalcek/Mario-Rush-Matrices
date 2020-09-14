@@ -114,12 +114,4 @@ class MarioRush extends Matrix {
 }
 
 
-// const board = new GoldRush(5, 5)
-// board.print()
-// board.movePlayer('2', 'up')
-// console.log('')
-// board.print()
-// board.printScore()
-
-
 

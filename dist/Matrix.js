@@ -22,7 +22,6 @@ class Matrix {
             for (let j = 0; j < this.matrix[i].length; j++) {
                 line += (this.matrix[i][j] + "\t")
             }
-            console.log(line)
         }
     }
 

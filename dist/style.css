@@ -62,7 +62,60 @@ span {
     background-size: contain;
     align-items: center;
     justify-items: center;
-    color: #548cff;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#enter-btn{
+    background-color: #548cff;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    display: grid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.player{
+    background-color: #548cff;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    display: grid;
+    width: 100%
+
+}
+
+#player2-score{
+    background-color: #548cff;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    display: grid;
+    width: 100%
+}
+
+#player1-score{
+    background-color: #548cff;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    display: grid;
+    width: 100%
+}
+
+input{
+    background-color: #548cff;
+    color: white;
 }
 
 #castle{
